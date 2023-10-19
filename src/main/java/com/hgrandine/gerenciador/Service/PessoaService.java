@@ -13,7 +13,7 @@ public class PessoaService {
     
     private static PessoaRepository repository;
     
-    public static void save(PessoasIdentificadorDto pessoa) {
+    public void save(PessoasIdentificadorDto pessoa) {
         verificarIdentificador(pessoa);
         //adicionar senha e calculo da segurança
         save(pessoa);
