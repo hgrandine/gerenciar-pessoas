@@ -1,8 +1,6 @@
 package com.hgrandine.gerenciador.Dto;
 
-import java.io.Serializable;
-
-public class PessoasDto {
+public class PessoasIdentificadorDto {
     
     private String nome;
     private String identificador;
